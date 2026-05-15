@@ -12,5 +12,10 @@ public class Main {
         salaDeChat.registrarUsuario(user1);
         salaDeChat.registrarUsuario(user2);
         salaDeChat.registrarUsuario(user3);
+
+        // Simulando o chat
+        user1.enviar("Ola, pessoal! Como voces estao?");
+        user2.enviar("Oi Alice! Tudo bem por aqui.");
+        user3.enviar("Boa noite! Pessoal, estou com uma duvida no codigo.");
     }
 }
